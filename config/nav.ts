@@ -1,5 +1,5 @@
 export const navigationItems = [
-  { href: '/', text: 'Hme' },
+  { href: '/', text: 'Home' },
   { href: '/projects', text: 'Project' },
   { href: '/blog', text: 'Blog' },
   // { href: '/guestbook', text: '留言墙' },

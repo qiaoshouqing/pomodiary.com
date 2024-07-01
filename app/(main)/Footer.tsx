@@ -55,8 +55,8 @@ async function TotalPageViews() {
   return (
     <span className="flex items-center justify-center gap-1 text-xs text-zinc-500 dark:text-zinc-400 md:justify-start">
       <UsersIcon className="h-4 w-4" />
-      <span title={`${Intl.NumberFormat('en-US').format(views)}次浏览`}>
-        总浏览量&nbsp;
+      <span title={`${Intl.NumberFormat('en-US').format(views)}views`}>
+        total views&nbsp;
         <span className="font-medium">{prettifyNumber(views, true)}</span>
       </span>
     </span>
@@ -90,7 +90,7 @@ async function LastVisitorInfo() {
     <span className="flex items-center justify-center gap-1 text-xs text-zinc-500 dark:text-zinc-400 md:justify-start">
       <CursorClickIcon className="h-4 w-4" />
       <span>
-        最近访客来自&nbsp;
+        Recent visitors from&nbsp;
         {[lastVisitor.city, lastVisitor.country].filter(Boolean).join(', ')}
       </span>
       <span className="font-medium">{lastVisitor.flag}</span>
@@ -111,9 +111,9 @@ export async function Footer() {
       <Container.Outer>
         <div className="border-t border-zinc-100 pb-16 pt-10 dark:border-zinc-700/40">
           <Container.Inner>
-            <div className="mx-auto mb-8 max-w-md">
-              <Newsletter subCount={`${subs?.subCount ?? '0'}`} />
-            </div>
+            {/*<div className="mx-auto mb-8 max-w-md">*/}
+            {/*  <Newsletter subCount={`${subs?.subCount ?? '0'}`} />*/}
+            {/*</div>*/}
             <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
               <p className="text-sm text-zinc-500/80 dark:text-zinc-400/80">
                 &copy; {new Date().getFullYear()} Cali Castle. 网站已开源：

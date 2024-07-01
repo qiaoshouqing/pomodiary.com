@@ -1,6 +1,6 @@
-## Cali 个人博客网站
+## PomoDiary 官网
 
-Cali 的个人博客网站 [https://cali.so/](https://cali.so/) 的源代码。
+pomodiary.com 官网 [pomodiary.com](pomodiary.com) 的源代码。
 
 需要其他服务商的环境变量才能正常运行，所以如果你想要在本地运行，需要自己配置。
 

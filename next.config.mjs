@@ -55,7 +55,7 @@ const nextConfig = {
       // },
       {
         "source": "/bilibili",
-        "destination": "https://space.bilibili.com/8350251",
+        "destination": "https://space.bilibili.com/24775213",
         "permanent": true
       }
     ]

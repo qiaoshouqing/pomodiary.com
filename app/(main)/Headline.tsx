@@ -96,7 +96,7 @@ export function Headline() {
           {/*创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。*/}
           {/*我热爱开发，设计，创新，享受生活，以及在未知领域中探索。*/}
             POMODIARY, a company using AI to advance society,
-            has one hundred applications that will either change society or simply change your life.
+            has <b>one hundred applications</b> that will either <b>change society</b> or <b>simply change your life</b>.
         </Balancer>
       </motion.p>
       <motion.div

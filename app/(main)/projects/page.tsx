@@ -28,13 +28,8 @@ export default function ProjectsPage() {
           My adventures in past projects.
         </h1>
         <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          I like this passage very much.
-          <blockquote>
-            <p> was surprised, as always, that how easy it was to leave—how good it felt to be gone, to be on the move, to be someplace where I had never been before and where I was never going to be again.
-            </p>
-            <footer>- John Krakauer, Into the Wild.</footer>
-          </blockquote>
-          These projects vary - some have had a <b>great deal of effort</b> poured into them, some are <b>small but practical</b>, while others are <b>novel and interesting</b>. This also serves as proof that we are always <b>on the journey</b>.
+          These projects vary - some have had a <b>great deal of effort</b> poured into them, some are <b>small but practical</b>, while others are <b>novel and interesting</b>.
+          This also serves as proof that we are always on the journey.
         </p>
       </header>
       <div className="mt-16 sm:mt-20">

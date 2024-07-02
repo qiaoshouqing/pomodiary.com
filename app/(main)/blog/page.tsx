@@ -6,7 +6,7 @@ import { Container } from '~/components/ui/Container'
 import { BlogPosts } from './BlogPosts'
 
 const description =
-  'Here I will tell the story behind the product and our entrepreneurial experience'
+  'Here I will tell the story behind the product and our entrepreneurial experience.'
 export const metadata = {
   title: 'My Blog',
   description,
@@ -31,6 +31,13 @@ export default function BlogPage() {
         </h1>
         <p className="my-6 text-base text-zinc-600 dark:text-zinc-400">
           <Balancer>{description}</Balancer>
+          I like this passage very much.
+          <blockquote className="border-gray-300 pl-4">
+            <p className="text-zinc-500 dark:text-zinc-500">I was surprised, as always, that how easy it was to leave—how good it felt to be gone, to be on the move, to be someplace where I had never been before and where I was never going to be again.
+            </p>
+            <footer className="text-zinc-500 dark:text-zinc-500">- John Krakauer, Into the Wild.</footer>
+          </blockquote>
+          These are proof that we are on the road.
         </p>
         <p className="flex items-center">
           <SocialLink href="/feed.xml" platform="rss" />

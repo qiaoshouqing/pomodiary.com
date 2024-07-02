@@ -1,6 +1,6 @@
-import Balancer from 'react-wrap-balancer'
+// import Balancer from 'react-wrap-balancer'
 
-import { SocialLink } from '~/components/links/SocialLink'
+// import { SocialLink } from '~/components/links/SocialLink'
 import { Container } from '~/components/ui/Container'
 
 import { BlogPosts } from './BlogPosts'
@@ -30,18 +30,18 @@ export default function BlogPage() {
           Welcome to my blog
         </h1>
         <p className="my-6 text-base text-zinc-600 dark:text-zinc-400">
-          <Balancer>{description}</Balancer>
+          {/*<Balancer>{description}</Balancer>*/}
           I like this passage very much.
-          <blockquote className="border-gray-300 pl-4">
+          <blockquote className="border-l-4 border-gray-300 pl-4 py-2 my-4">
             <p className="text-zinc-500 dark:text-zinc-500">I was surprised, as always, that how easy it was to leave—how good it felt to be gone, to be on the move, to be someplace where I had never been before and where I was never going to be again.
             </p>
             <footer className="text-zinc-500 dark:text-zinc-500">- John Krakauer, Into the Wild.</footer>
           </blockquote>
           These are proof that we are on the road.
         </p>
-        <p className="flex items-center">
-          <SocialLink href="/feed.xml" platform="rss" />
-        </p>
+        {/*<p className="flex items-center">*/}
+        {/*  <SocialLink href="/feed.xml" platform="rss" />*/}
+        {/*</p>*/}
       </header>
       <div className="mt-12 grid grid-cols-1 gap-6 sm:mt-20 lg:grid-cols-2 lg:gap-8">
         <BlogPosts limit={20} />

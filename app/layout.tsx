@@ -14,11 +14,11 @@ import { seo } from '~/lib/seo'
 export const metadata: Metadata = {
   metadataBase: seo.url,
   title: {
-    template: '%s | Cali Castle',
+    template: '%s | POMODIARY',
     default: seo.title,
   },
   description: seo.description,
-  keywords: 'Cali,Cali Castle,郭晓楠,佐玩,创始人,CEO,开发者,设计师,细节控,创新',
+  keywords: 'POMODIARY,AI,人工智能,开心番茄,创新,社会进步,改变生活',
   manifest: '/site.webmanifest',
   robots: {
     index: true,
@@ -34,10 +34,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: {
       default: seo.title,
-      template: '%s | Cali Castle',
+      template: '%s | POMODIARY',
     },
     description: seo.description,
-    siteName: 'Cali Castle',
+    siteName: 'POMODIARY',
     locale: 'zh_CN',
     type: 'website',
     url: 'https://pomodiary.com',

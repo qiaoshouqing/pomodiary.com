@@ -3,9 +3,10 @@ import { type Metadata } from 'next'
 import { Projects } from '~/app/(main)/projects/Projects'
 import { Container } from '~/components/ui/Container'
 
-const title = '我的项目'
+const title = 'Projects'
 const description =
-  '多年来，我一直在做各种各样的小项目，这里就是我筛选出来我觉得还不错的项目合集，也是我在技术领域中尝试和探索的最好见证。'
+  'These projects vary - some have had a great deal of effort poured into them, some are practical, while others are novel and interesting.' +
+    'This also serves as proof that we are always on the journey.'
 export const metadata = {
   title,
   description,
@@ -28,7 +29,7 @@ export default function ProjectsPage() {
           My adventures in past projects.
         </h1>
         <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          These projects vary - some have had a <b>great deal of effort</b> poured into them, some are <b>small but practical</b>, while others are <b>novel and interesting</b>.
+          These projects vary - some have had <b>a great deal of effort</b> poured into them, some are <b>practical</b>, while others are <b>novel and interesting</b>.
           This also serves as proof that we are always on the journey.
         </p>
       </header>

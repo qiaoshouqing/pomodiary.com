@@ -9,8 +9,8 @@ import { ThemeProvider } from '~/app/(main)/ThemeProvider'
 import { url } from '~/lib'
 import { zhCN } from '~/lib/clerkLocalizations'
 import { sansFont } from '~/lib/font'
-import { seo } from '~/lib/seo'
 import GoogleAnalytics from "~/lib/goolge-analytics";
+import { seo } from '~/lib/seo'
 
 export const metadata: Metadata = {
   metadataBase: seo.url,

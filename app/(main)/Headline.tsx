@@ -21,7 +21,7 @@ import { SocialLink } from '~/components/links/SocialLink'
 function Compony() {
     return (
         <span className="group">
-        POMODIARY
+        POMODIARY LLC
       <span className="invisible inline-flex text-zinc-300 before:content-['|'] group-hover:visible group-hover:animate-typing dark:text-zinc-500" />
     </span>
     )

@@ -115,12 +115,28 @@ export function Footer() {
             {/*  <Newsletter subCount={`${subs?.subCount ?? '0'}`} />*/}
             {/*</div>*/}
             <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
-              <p className="text-sm text-zinc-500/80 dark:text-zinc-400/80">
-                &copy; {new Date().getFullYear()} POMODIARY. The website is open source：
-                <PeekabooLink href="https://github.com/qiaoshouqing/pomodiary.com">
-                  GitHub
-                </PeekabooLink>
-              </p>
+              <div className="flex flex-col items-center gap-2 text-sm text-zinc-500/80 dark:text-zinc-400/80 sm:items-start">
+                <p>
+                  &copy; {new Date().getFullYear()} POMODIARY. The website is open source：
+                  <PeekabooLink href="https://github.com/qiaoshouqing/pomodiary.com">
+                    GitHub
+                  </PeekabooLink>
+                </p>
+                <div className="flex gap-4 text-xs">
+                  <Link 
+                    href="/privacy" 
+                    className="transition hover:text-lime-500 dark:hover:text-lime-400"
+                  >
+                    Privacy Policy
+                  </Link>
+                  <Link 
+                    href="/terms" 
+                    className="transition hover:text-lime-500 dark:hover:text-lime-400"
+                  >
+                    Terms of Service
+                  </Link>
+                </div>
+              </div>
               <Links />
             </div>
           </Container.Inner>
